@@ -1,7 +1,9 @@
 REQUIRED:
 
  - Player.js file:
-   + change code "<img className="avatar" src={avatarUrl} alt={name} />" to "<img className="avatar" src="Your code here" alt="Your code here" />" => target: known pass pros to component.
+   + change code "<img className="avatar" src={avatarUrl} alt={name} />" 
+   to "<img className="avatar" src="Your code here" alt="Your code here" />" 
+   => target: known pass pros to component.
    
  -Result.js file: 
    + change code "function Result({ result, user1GameItem, user2GameItem })" to "function Result({ "Your code here" })" => target: Known get pros from component.
