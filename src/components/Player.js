@@ -4,11 +4,7 @@ function Player({ avatarUrl, name }) {
   return (
     <div className="user">
       <span>{name}</span>
-      <img
-        className="avatar"
-        src="../public/avatar/user.jpeg"
-        alt="Your code User avatar"
-      />
+      <img className="avatar" src={avatarUrl} alt={name} />
     </div>
   );
 }
